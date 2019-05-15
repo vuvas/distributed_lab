@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/Hospital POS/build/
+/HospitalService/build/
+/Labratory/build/
+/Pharmacy/build/
+/Pharmacy/nbproject/private/
+/HospitalService/nbproject/private/
+/Hospital POS/nbproject/private/
+/Labratory/nbproject/private/
