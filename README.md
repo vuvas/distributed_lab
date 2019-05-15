@@ -120,3 +120,71 @@ CREATE TABLE `voucher` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 ```
+
+
+
+### Insert Dummy Data
+```sql
+INSERT INTO `hospitalservice`.`services`
+(`idservices`,
+`serviceName`,
+`serviceType`,
+`servicePrice`)
+VALUES
+(1,
+'Card',
+null,
+50);
+INSERT INTO `hospitalservice`.`services`
+(`idservices`,
+`serviceName`,
+`serviceType`,
+`servicePrice`)
+VALUES
+(2,
+'Doctor Checkup',
+null,
+1000);
+INSERT INTO `pharmacy`.`services`
+(`idservices`,
+`serviceName`,
+`serviceType`,
+`servicePrice`)
+VALUES
+(1,
+'Amoxcacilin',
+null,
+10);
+INSERT INTO `pharmacy`.`services`
+(`idservices`,
+`serviceName`,
+`serviceType`,
+`servicePrice`)
+VALUES
+(2,
+'Advil',
+null,
+80);
+INSERT INTO labratory.services
+(`idservices`,
+`serviceName`,
+`serviceType`,
+`servicePrice`)
+VALUES
+(1,
+'Blood Testing',
+null,
+25);
+INSERT INTO labratory.services
+(`idservices`,
+`serviceName`,
+`serviceType`,
+`servicePrice`)
+VALUES
+(2,
+'Urine Testing',
+null,
+60);
+
+```
+
