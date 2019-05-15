@@ -1,5 +1,13 @@
-# Distributed Lab
-This project is submitted for lab assignment on RMI.
+# Distributed Lab (Payment System for Electronic Medical Record )
+EMR stands for Electronic medical records, which are the digital equivalent of paper records, or charts at a clinician’s office. EMRs typically contain general information such as treatment and medical history about a patient as it is collected by the individual medical practice.
+Our system will provide one point payment location for such system. The payment will be calculated from three different service. These are.
+1. The practitioner and hospital cost. 
+2. The Laboratory cost. 
+3. Pharmacy cost. 
+The end user/customer will able to pay from a single position for all his medical cost. All the service can be of different company but they will be able to pay for all of this using centralized manner.1. The practitioner and hospital cost. 
+2. The Laboratory cost. 
+3. Pharmacy cost. 
+The end user/customer will able to pay from a single position for all his medical cost. All the service can be of different company but they will be able to pay for all of this using centralized manner.
 
 # The Project Concept!
 Its sample project on how a hospital payment system works.The system will continue 4 sub system.
@@ -192,5 +200,12 @@ null,
 60);
 
 ```
-
+## Group Members
+| Full Name |
+| --------- |
+| Eyoel  |
+| Girma  |
+| Lelise |
+| Tinsae |
+| Yonas  |
 
