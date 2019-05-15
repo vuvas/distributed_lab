@@ -12,7 +12,12 @@ DB – Patient information, Laboratory tests, Vouchers
 DB – Patient information, Medicine , Vouchers
 
 ### Step on how to run the application
-Assumption all reqired netbeans dependencies are installed.
+Assumption all Netbeans is installed and working properly. And mysql connector is added to each projects. 
+```sh 
+ # database connection string
+ username: root
+ password: 123456
+```
 ```sql
 <!--For Hospital POS Service...-->
 CREATE DATABASE `hospitalpos` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
@@ -187,4 +192,5 @@ null,
 60);
 
 ```
+
 
