@@ -25,6 +25,7 @@ Assumption all Netbeans is installed and working properly. And mysql connector i
  username: root
  password: 123456
 ```
+For Hospital POS Service...
 ```sql
 <!--For Hospital POS Service...-->
 CREATE DATABASE `hospitalpos` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
